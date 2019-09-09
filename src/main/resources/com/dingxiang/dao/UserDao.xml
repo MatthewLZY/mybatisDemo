@@ -5,7 +5,7 @@
 <mapper namespace="com.dingxiang.dao.UserDao">
 
     <!-- 配置查询所有 -->
-    <select id="findAll">
+    <select id="findAll" resultType="com.dingxiang.domain.User">
         select * from user
     </select>
 
